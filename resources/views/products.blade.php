@@ -1,5 +1,18 @@
-<h1>Pagina de Produtos</h1>
+@extends('layouts.main')
 
-<h2>Produtos encontrados</h2>
+@section('title', 'Produtos')
 
+
+@section('content')
+
+
+<h1>Tela de Produtos</h1>
+
+@if($busca != '')
+    <p>O usuário está buscando por: {{$busca}}</p>
+
+@endif
+<br>
 <a href="/">Voltar para home</a>
+
+@endsection
