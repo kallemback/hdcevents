@@ -13,3 +13,8 @@ img {
     height: 300px;
     width: 500;
 }
+
+#navbar img {
+    width: 50px;
+
+}
